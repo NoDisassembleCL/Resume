@@ -1,0 +1,101 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-family: 'Federo', sans-serif;
+	font-size: 2em;
+	display: none;
+}
+
+main {
+	/* margin: 10px; */
+    display: grid;
+	grid-template-columns: 50% 50%;
+	grid-auto-rows: 1fr;
+}
+
+ul {
+	list-style: none;
+}
+
+ul.allow-wrap {
+	-webkit-column-width: 12.5vw;
+	column-width: 12.5vw;
+}
+
+table {
+	width: 100%;
+}
+
+section {
+	height: 24vh;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+section .slide {
+	height: 24vh;
+	width: 100%;
+	position: absolute;
+	background-color: #FFFFFF;
+	left: 0;
+}
+
+.slide.set-one {
+	top: -24vh;
+}
+
+.slide.set-two {
+	top: 0;
+}
+
+.invisible {
+	position: absolute;
+	left: -999999px;
+}
+
+#basics {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#experience {
+    grid-column-start: 2;
+    grid-row-start: 2; 
+}
+
+#education {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#projects {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+#proficient {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#someexp {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#previous {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+#learning {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
