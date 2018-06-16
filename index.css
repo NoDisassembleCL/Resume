@@ -6,10 +6,15 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+	position: relative;
+}
+
 h1 {
 	font-family: 'Federo', sans-serif;
 	font-size: 2em;
-	display: none;
+	position: relative;
+	left: 10px;
 }
 
 main {
@@ -32,8 +37,8 @@ table {
 }
 
 section {
-	height: 24vh;
-	padding: 10px;
+	height: calc( 25vh - 0.6em );
+	padding: 0 10px;
 	position: relative;
 	overflow: hidden;
 }
