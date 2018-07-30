@@ -13,8 +13,8 @@ body {
 h1 {
 	font-family: 'Federo', sans-serif;
 	font-size: 2em;
-	position: relative;
-	left: 10px;
+	max-width: 98%;
+	padding-left: 10px;
 }
 
 main {
